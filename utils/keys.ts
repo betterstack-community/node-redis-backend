@@ -10,3 +10,4 @@ export const cuisinesKey = getKeyName("cuisines");
 export const cuisineKey = (name: string) => getKeyName("cuisine", name);
 export const restaurantCuisinesKeyById = (id: string) =>
   getKeyName("restaurant_cuisines", id);
+export const restaurantsByRatingKey = getKeyName("restaurants_by_rating");
